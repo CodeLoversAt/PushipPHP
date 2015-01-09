@@ -1,0 +1,19 @@
+{
+    "name": "puship/puship-php",
+    "description": "Composer wrapper for Puship PHP Server API",
+    "authors": [
+        {
+            "name": "Daniel Holzmann",
+            "email": "d@velopment.at"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
